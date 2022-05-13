@@ -1,0 +1,19 @@
+/* format table and elements */
+table, tr, th, td {
+    border: 1px solid white;
+    margin: auto;
+    text-align: center;
+}
+
+/* align to center */
+#board {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+/* fix the margin */
+form {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,11 @@
+/* center div */
+#gameStart {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+/* to align text */
+#gameStart > p{
+    text-align: justify;
+}

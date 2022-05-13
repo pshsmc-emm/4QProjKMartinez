@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Out of Luck - Leaderboard </title>
+		<meta charset="UTF-8" />
+		<meta name="author" content="Marie Emmanuelle B. Martinez" />
+		<meta name="description" content="Fourth Quarter Project" />
+		<meta name="keywords" content="HTML, CSS, JavaScript" />
+		<meta name="date" content="09-05-2022" />
+		<meta name="revised" content="13-05-2022" />
+
+		<link rel="icon" href="../images/outOfLuck.png" type="image/gif" />
+
+        <link rel="stylesheet" type="text/css" href="../css/general.css" />
+        <link rel="stylesheet" type="text/css" href="../css/leaderboards.css" />
+        <script src="../javascript/leaderboard.js"></script>
+
+	</head>
+    <body>
+        <div id="main">
+            <div id="board">
+                <h1>Out of Luck!</h1>
+                <h4>Did you get lucky with your decisions? Here's the leaderboard to see how well you fared!</h4>
+
+                <div id="scoreTable"></div>
+
+                <form>
+                    <label for="username">Please enter your name: </label>
+                    <input id="username" type="text" required></input>
+                    <br />
+                    <label for="score">Enter number of tries: </label>
+                    <input id="score" type="number" required></input>
+                    <br />
+                    <input id="submitScore" type="button" value="Enter Score" onclick="showOnBoard()">
+                </form>
+            </div>
+
+            <div id="nav">
+                <input type="button" value="About the Game 🍀" onclick="window.location.href='../index.html'">
+                <input type="button" value="The Game 📚" onclick="window.location.href='gameProper.html'">
+            </div>
+        </div>
+    </body>
+</html>

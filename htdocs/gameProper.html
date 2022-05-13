@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Out of Luck - Game Proper </title>
+        <meta charset="UTF-8" />
+        <meta name="author" content="Marie Emmanuelle B. Martinez" />
+        <meta name="description" content="Fourth Quarter Project" />
+        <meta name="keywords" content="HTML, CSS, JavaScript" />
+        <meta name="date" content="09-05-2022" />
+        <meta name="revised" content="13-05-2022" />
+
+        <link rel="icon" href="../images/outOfLuck.png" type="image/gif" />
+
+        <link rel="stylesheet" type="text/css" href="../css/general.css" />
+        <link rel="stylesheet" type="text/css" href="../css/game.css" />
+        <script src="../javascript/game.js"></script>
+        
+    </head>
+
+    <body>
+        <div id="main">
+            <div id="gameStart">
+                <h1>Out of Luck!</h1>
+                <form onsubmit="getUsername()">
+                    <label for="username">Please enter your name:</label>
+                    <input id="username" type="text" autocomplete="nickname" required></input>
+                    <br />
+                    <br />
+                    <input id="startButton" type="submit" value="Begin story">
+                    <br />
+                    <br />
+                </form>
+            </div>
+
+            <div id="nav">
+                <input type="button" value="About the Game 🍀" onclick="window.location.href='../index.html'">
+                <input type="button" value="Leaderboards 🏆" onclick="window.location.href='leaderboard.html'">
+            </div>
+        </div>
+    </body>
+</html>
